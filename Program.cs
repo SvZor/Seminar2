@@ -79,7 +79,7 @@
 // System.Console.WriteLine("Введите число");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// if(num%7==0 && num%23==0) // && -и || -или
+// if((num%7==0 && num%23==0 && num1 != num2)) // && -и || -или
 // {
 // System.Console.WriteLine("да");
 // }
