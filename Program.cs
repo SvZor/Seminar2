@@ -44,26 +44,46 @@
 // int result= (num/100)*10 +num%10; // (345/100)*10+ 5
 // System.Console.WriteLine(result);
 
-// задача 3 Напишите программу, которая будет принимать на
-// вход два числа и выводить, является ли второе
-// число кратным первому. Если число 2 не кратно
-// числу 1, то программа выводит остаток от деления.
+// // задача 3 Напишите программу, которая будет принимать на
+// // вход два числа и выводить, является ли второе
+// // число кратным первому. Если число 2 не кратно
+// // числу 1, то программа выводит остаток от деления.
 
-// 34, 5 -> не кратно, остаток 4
-// 16, 4 -> кратно
+// // 34, 5 -> не кратно, остаток 4
+// // 16, 4 -> кратно
 
-System.Console.WriteLine("Введите число");
-int num1 = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите число");
+// int num1 = Convert.ToInt32(Console.ReadLine());
 
-System.Console.WriteLine("Введите число");
-int num2 = int.Parse(Console.ReadLine());
+// System.Console.WriteLine("Введите число");
+// int num2 = int.Parse(Console.ReadLine());
 
-if(num1%num2 == 0)
-{
-System.Console.WriteLine("кратно");
-}
-else
-{
-System.Console.WriteLine($"не кратно, остаток {num1%num2} ");// Интерполяция
-// System.Console.WriteLine("не кратно, остаток" + num1%num2+ "рпм");// Канкатенация
-}
+// if(num1%num2 == 0)
+// {
+// System.Console.WriteLine("кратно");
+// }
+// else
+// {
+// System.Console.WriteLine($"не кратно, остаток {num1%num2} ");// Интерполяция
+// // System.Console.WriteLine("не кратно, остаток" + num1%num2+ "рпм");// Канкатенация
+// }
+
+// // Задача 4 Напишите программу, которая принимает на вход
+// // число и проверяет, кратно ли оно одновременно
+// // 7 и 23.
+
+// // 14 -> нет
+// // 46 -> нет
+// // 161 -> да
+
+// System.Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if(num%7==0 && num%23==0) // && -и || -или
+// {
+// System.Console.WriteLine("да");
+// }
+// else
+// {
+// System.Console.WriteLine("нет");
+// }
